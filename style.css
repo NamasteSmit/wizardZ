@@ -1,0 +1,241 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing : border-box;
+    font-family : 'Poppins', sans-serif;
+}
+
+    
+html,body{
+    height : 100%;
+    width : 100%;
+}
+
+body {
+    overflow-x : hidden
+}
+
+section {
+    position : relative
+}
+
+.cursor{
+    width : 20px;
+    height : 20px;
+    border-radius : 50%;
+    background-color : black;
+    position : fixed;
+    z-index :9
+}
+
+nav{
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    padding : 40px 50px;
+}
+
+nav h4{
+    font-size : 18px;
+    font-weight : 500;
+}
+
+nav h1{
+    font-size : 40px;
+    
+}
+nav i{
+    display : inline-block;
+    transform : rotate(45deg);
+}
+
+.part2{
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    gap : 50px;
+}
+
+.part2 button{
+   padding : 15px 40px;
+   border-radius : 10px;
+   font-weight : bold;
+   background-color : transparent;
+   /* border : 3px solid black; */
+}
+
+.center{
+    width : 100%;
+    height : 85%;
+    /* background-color : red; */
+    display : flex;
+    padding : 80px;
+    gap : 50px;
+
+}
+
+.center-part1{
+    /* border : 2px solid black; */
+    width : 39%;
+    /* padding : 40px; */
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    gap : 30px;
+}
+
+.center-part1 h1{
+    font-size :55px;
+    font-weight : 500;
+    line-height : 1.2
+}
+
+.center-part1 button{
+   width : 40%;
+   padding : 10px 20px;
+   border-radius : 10px;
+   background-color : black;
+   color : white;
+   border :  none;
+   font-size : 16px;
+   font-weight : 500;
+   cursor : pointer;
+}
+
+.center-part2{
+    /* border : 2px solid black; */
+    width : 61%;
+    position : relative;
+}
+
+
+.center-part2 img{
+    width : 100%; 
+      height : 100%; 
+     object-fit : cover;
+     position : absolute;
+     border-radius : 10px;
+}
+
+.section1bottom{
+    flex-shrink : 1;
+    width : 100%;
+    display :flex;
+    justify-content : space-evenly;
+    align-items : center;
+    padding : 20px;
+    gap : 50px;
+    overflow-x : hidden;
+}
+
+.section1bottom img{
+    flex-shrink : 0;
+    width : 16.6%;
+    height : 100px;
+    padding : 10px;
+    transform : translateX(-100%);
+    /* border : 1px solid black */
+}
+
+.section-2{
+    width : 100%;
+    /* background-color : red; */
+    padding : 70px;
+}
+
+.section-2 .services{
+    display : flex;
+    /* justify-content : center; */
+    align-items : center;
+    gap : 20px;
+    padding : 20px;
+    margin : 10px;
+}
+.services h3{
+    background-color : #9AE975;
+    padding : 10px 20px;
+    border-radius : 5px;
+    font-weight : 600;
+    font-size : 25px;
+}
+.services p{
+    width : 60%;
+    font-size : 16px;
+    font-weight : 500;
+}
+
+.container {
+    width : 100%;
+    height : 88%;
+    /* background-color : beige; */
+    display : flex;
+    justify-content : space-between;
+    flex-wrap : wrap;
+    gap : 50;
+    padding : 10px 40px;
+}
+
+.container .elem{
+    flex-shrink : 0;
+    width : 47%;
+    height : 280px;
+    margin-top : 50px;
+    /* background-color : red; */
+    border : 3px solid black;
+    border-radius : 20px;
+    box-shadow : 0px 10px 0px black;
+}
+
+.elem-cont-1{
+    display : flex;
+    padding : 30px 10px
+}
+
+.elem-div-1{
+    width : 60%;
+    height : 100%;
+    display : flex;
+    flex-direction :  column;
+    justify-content : space-between;
+
+    h2{
+        font-size : 30px;
+        font-weight : 600;
+        /* background-color : #9AE975 */
+    }
+}
+
+.elem-cont-1-img{
+    width : 40%;
+    border : 1px solid black;
+    border-radius : 10px;
+    img{
+        width : 100%;
+        height : 100%;
+        object-fit : cover;
+        border-radius : 10px;
+    }
+}
+
+.elem-div-2{
+    display : flex;
+    align-items : center;
+    /* border : 1px solid black; */
+    gap : 10px;
+
+    i{
+        font-size : 30px;
+        background-color : black;
+        color : white;
+        border-radius : 50%;
+    }
+
+    span{
+        font-size : 18px;
+        font-weight : 500;
+    }
+}
